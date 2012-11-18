@@ -1,0 +1,2 @@
+swipestripe-staticshopconfig
+============================
