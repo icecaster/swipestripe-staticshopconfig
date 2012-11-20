@@ -20,11 +20,6 @@ class StaticShopConfig extends DataExtension {
 			"ShopAdmin_LicenceKeyAdmin",
 			"ShopAdmin_BaseCurrency"
 		);
-		ShopAdmin::$managed_models = array(
-			"Order",
-			"Customer",
-			"ShopConfig"
-		); 
 		Object::add_extension("ShopConfig", __CLASS__);
 	}
 
